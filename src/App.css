@@ -1,0 +1,32 @@
+@font-face {
+  font-family: pokémonGB;
+  src: url('../src/Pokemon_GB.ttf') format('ttf'),  
+       url('../src/Pokemon_GB.woff') format('woff');    
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MainContainer {
+  background-image: url(/public/Assets/pokedex.logo.png);
+  background-color: rgba(25, 0, 255, 0.616);
+  background-size: auto; 
+  background-position: top;
+  background-repeat: no-repeat; 
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+

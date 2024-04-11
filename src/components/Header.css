@@ -1,0 +1,76 @@
+@font-face {
+  font-family: pokémonGB;
+  src: url('../Pokemon_GB.ttf') format('ttf'),  
+       url('../Pokemon_GB.woff') format('woff');    
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+/*font-family: pokémonGB, sans-serif;*/
+
+.header {
+  background-color: #3456ed;
+  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 8%; 
+  left: 45S; 
+  margin-top: 11rem;
+  width: 36rem;
+  height: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 3px solid black;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.418);
+}
+
+
+.pokeball-left,
+.pokeball-right {
+  width: 50px; 
+  height: auto;
+  margin: 0 10px; 
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  background-color: transparent;
+}
+
+.pokeball-left {
+  left: 0;
+}
+
+.pokeball-right {
+  right: 0; 
+}
+
+.nav-list {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-family: pokémonGB, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+
